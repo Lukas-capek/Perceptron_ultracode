@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1637491533 source:c:\users\capek\disk google\strojárna\biomechanika\1.semestr\pia1\generator bodu\generator\main.cpp
+	<iostream>
+	<random>
+	<cmath>
+	<cstdlib>
+
+1637673947 source:c:\users\capek\disk google\strojárna\biomechanika\1.semestr\pia1\generator bodu\generator\untitled1.cpp
+	<iostream>
+	<random>
+	<cmath>
+	"RandomBod.h"
+	<algorithm>
+
+1637673068 c:\users\capek\disk google\strojárna\biomechanika\1.semestr\pia1\generator bodu\generator\include\randombod.h
+	<random>
+	<vector>
+	<bits/stdc++.h>
+
+1637495964 source:c:\users\capek\disk google\strojárna\biomechanika\1.semestr\pia1\generator bodu\generator\src\randombod.cpp
+	"RandomBod.h"
+	<cmath>
+	<random>
+	<vector>
+
