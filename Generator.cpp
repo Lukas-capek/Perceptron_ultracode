@@ -3,6 +3,7 @@
 #include <cmath>
 #include "RandomBod.h"
 #include <algorithm>
+#include <fstream>
 
 using namespace std;
 
@@ -36,5 +37,16 @@ int main()
         }
         cout <<endl;
     }
+    fstream file;
+    file.open("body.txt",ios::app);
+    for(int i=0; i<Res1.size(); i++){
+       for (int j=0; j<Res1[i].size();j++){
+            file<< Res1[i][j]<< " ";
+        }
+        file<<endl;
+    }
+    file.close();
+
+
     return 0;
 }
