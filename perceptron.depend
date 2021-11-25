@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1637851149 source:c:\users\jnlor\desktop\pia1\perceptron\src\perceptron.cpp
+	"Perceptron.h"
+	<math.h>
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+	<string>
+	<algorithm>
+	<iterator>
+	<stdlib.h>
+
+1637849490 source:c:\users\jnlor\desktop\pia1\perceptron\main.cpp
+	"Perceptron.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+	<string>
+	<algorithm>
+	<iterator>
+
+1637850536 c:\users\jnlor\desktop\pia1\perceptron\include\perceptron.h
+	<math.h>
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+	<string>
+	<algorithm>
+	<iterator>
+
