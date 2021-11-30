@@ -109,7 +109,7 @@ void Perceptron::uceni(vector<vector<double>> data, double k)
         double h = Perceptron::vahova_funkce(w0, bod);
         cout << "hodnota h " << h << endl;
 
-        vector<double> korekce = Perceptron::vektor_skalar(bod, k*(h-g));
+        vector<double> korekce = Perceptron::vektor_skalar(bod, k*(g-h));
         vector<double> w1 = Perceptron::soucet_vektoru(w0, korekce);
         w1 = Perceptron::jednotkovy_vektor(w1);
 
