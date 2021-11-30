@@ -34,9 +34,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="include/Perceptron.h" />
+		<Unit filename="include/perceptron.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/Perceptron.cpp" />
+		<Unit filename="src/perceptron.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
